@@ -12,7 +12,12 @@ import (
 var (
 	testApp        = "assets-adapter"
 	configFilePath = filepath.Join("conf")
+	//tw *openw.WalletManager
 )
+
+func init() {
+	//tw = testInitWalletManager()
+}
 
 func testInitWalletManager() *openw.WalletManager {
 	log.SetLogFuncCall(true)

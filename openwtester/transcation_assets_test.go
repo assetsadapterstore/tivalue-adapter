@@ -129,7 +129,7 @@ func TestTransfer(t *testing.T) {
 	tm := testInitWalletManager()
 	walletID := "W7uGyNykwk5o8ADuLThKetp5gLGXG9UXyg"
 	accountID := "M5QnsxCFVTksDasRXb69D2irvtTaJmzdqJxiwcxsvC7"
-	to := "tvQQ3nYh1nn3F1umGX6W7vKuRKa49SerDzn"
+	to := "tvEguv6bx9SKUQxtzQkBdEkMY3n8CTEGm99"
 
 	testGetAssetsAccountBalance(tm, walletID, accountID)
 

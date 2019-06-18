@@ -81,16 +81,14 @@ func TestGetBlock(t *testing.T) {
 }
 
 func TestGetTransaction(t *testing.T) {
-	// raw, err := tw.GetTransaction("7792d54a7eb9f467de7a1292c0d317b2d5462e7ec35d229a383d948c18d9c873")
-	// if err != nil {
-	// 	t.Errorf("GetTransaction failed unexpected error: %v\n", err)
-	// 	return
-	// }
+	raw, err := tw.GetTransaction("B49VLerBq8UD1LK2w4k9HcPqYRySTm25FisHcxUMe2Hc")
+	if err != nil {
+		t.Errorf("GetTransaction failed unexpected error: %v\n", err)
+		return
+	}
 
-	// t.Logf("BlockHash = %v \n", raw.BlockHash)
-	// t.Logf("BlockHeight = %v \n", raw.BlockHeight)
-	// t.Logf("Blocktime = %v \n", raw.Blocktime)
-	// t.Logf("Fees = %v \n", raw.Fees)
+	t.Logf("BlockHash = %v \n", raw.BlockHash)
+	t.Logf("BlockHeight = %v \n", raw.BlockHeight)
 
 	// t.Logf("========= vins ========= \n")
 
