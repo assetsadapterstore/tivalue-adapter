@@ -17,8 +17,8 @@ package tivalue
 
 import (
 	"encoding/hex"
+	"github.com/assetsadapterstore/tivalue-adapter/tivalue_addrdec"
 	"testing"
-	"tivalue-adapter/tivalue_addrdec"
 )
 
 func TestAddressDecoder_AddressEncode(t *testing.T) {

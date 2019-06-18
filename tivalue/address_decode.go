@@ -17,8 +17,9 @@ package tivalue
 
 import (
 	"fmt"
+	"github.com/assetsadapterstore/tivalue-adapter/tivalue_addrdec"
 	"github.com/blocktree/go-owcrypt"
-	"tivalue-adapter/tivalue_addrdec"
+
 )
 
 type AddressDecoder struct {
