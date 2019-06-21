@@ -7,7 +7,7 @@ require (
 	github.com/blocktree/go-owcdrivers v1.0.21
 	github.com/blocktree/go-owcrypt v1.0.1
 	github.com/blocktree/openwallet v1.4.3
-	github.com/blocktree/virtualeconomy-adapter v1.1.5
+	github.com/blocktree/virtualeconomy-adapter v1.1.6
 )
 
 //replace github.com/blocktree/virtualeconomy-adapter => ../virtualeconomy-adapter
